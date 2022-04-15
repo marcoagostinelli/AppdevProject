@@ -1,6 +1,13 @@
 com/example/finalproject/BuildConfig.java
  com.example.finalproject.BuildConfig
-com/example/finalproject/MainActivity.java
- com.example.finalproject.MainActivity
 com/example/finalproject/DBHelper.java
  com.example.finalproject.DBHelper
+com/example/finalproject/BrowseActivity.java
+ com.example.finalproject.BrowseActivity
+com/example/finalproject/MainActivity.java
+ com.example.finalproject.MainActivity
+ com.example.finalproject.MainActivity$1
+com/example/finalproject/RecyclerAdapter.java
+ com.example.finalproject.RecyclerAdapter
+ com.example.finalproject.RecyclerAdapter$1
+ com.example.finalproject.RecyclerAdapter$ViewHolder

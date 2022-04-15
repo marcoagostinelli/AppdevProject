@@ -6,6 +6,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.util.ArrayList;
+
 public class DBHelper extends SQLiteOpenHelper {
 
     public DBHelper(Context context) {
@@ -46,6 +48,21 @@ public class DBHelper extends SQLiteOpenHelper {
         return result != -1;
     }
 
+    public Boolean deleteBookingData(int booking_Id) {
+        SQLiteDatabase DB = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        String idToString = Integer.toString(booking_Id);
+
+        Cursor cursor = DB.rawQuery("Select * from Booking where booking_Id = ?", new String[]{idToString});
+
+        if (cursor.getCount() > 0) {
+            long result = DB.delete("Booking", "booking_Id=?", new String[]{idToString});
+            return result != -1;
+        } else {
+            return false;
+        }
+    }
+
     public Boolean insertHotelData(String hotel_name, int rating, int num_ratings, int price, String image) {
         SQLiteDatabase DB = this.getWritableDatabase();
         ContentValues contentvalues = new ContentValues();
@@ -60,19 +77,28 @@ public class DBHelper extends SQLiteOpenHelper {
         return result != -1;
     }
 
-    public Boolean deleteBookingData(int booking_Id) {
+    public Boolean deleteHotelData(int hotel_id) {
         SQLiteDatabase DB = this.getWritableDatabase();
-        ContentValues contentValues = new ContentValues();
-        String idToString = Integer.toString(booking_Id);
+        ContentValues contentvalues = new ContentValues();
+        String idToString = Integer.toString(hotel_id);
 
-        Cursor cursor = DB.rawQuery("Select * from Booking where booking_Id = ?", new String[]{idToString});
+        Cursor cursor = DB.rawQuery("Select * from Hotel where hotel_id = ?", new String[]{ idToString });
 
         if (cursor.getCount() > 0) {
-            long result = DB.delete("Booking", "booking_Id=?", new String[]{idToString});
-
+            long result = DB.delete("Hotel", "hotel_id=?", new String[]{ idToString });
             return result != -1;
         } else {
             return false;
         }
     }
+
+    public ArrayList<HotelRoom> getHotelData() {
+        SQLiteDatabase DB = this.getWritableDatabase();
+        ContentValues contentvalues = new ContentValues();
+
+        Cursor cursor = DB.rawQuery("SELECT * FROM Hotel", null);
+        // cursor to object to arraylist
+        return null;
+    }
+
 }
