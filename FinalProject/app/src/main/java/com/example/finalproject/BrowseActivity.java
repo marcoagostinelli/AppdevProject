@@ -18,6 +18,7 @@ public class BrowseActivity extends AppCompatActivity {
 
     ArrayList<String> hotelNames;
     ArrayList<String> hotelPrices;
+    ArrayList<String> hotelRatings;
     public DBHelper DB;
 
 
@@ -33,13 +34,15 @@ public class BrowseActivity extends AppCompatActivity {
 
         hotelNames = new ArrayList<String>();
         hotelPrices = new ArrayList<String>();
+        hotelRatings = new ArrayList<String>();
         Cursor res = DB.getHotelData();
 
         while (res.moveToNext()){
             hotelNames.add(res.getString(1));
+            hotelRatings.add(res.getString(2));
             hotelPrices.add(res.getString(4));
         }
-        adapter = new RecyclerAdapter(this,hotelNames,hotelPrices);
+        adapter = new RecyclerAdapter(this,hotelNames,hotelPrices,hotelRatings);
         recyclerView.setAdapter(adapter);
 
         ArrayList<String> rooms = new ArrayList<>();

@@ -19,11 +19,14 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     Context context;
     ArrayList<String> hotelNames;
     ArrayList<String> prices;
+    ArrayList<String> ratings;
 
-    public RecyclerAdapter(Context context, ArrayList<String> hotelNames,ArrayList<String> prices ) {
+    public RecyclerAdapter(Context context, ArrayList<String> hotelNames,ArrayList<String> prices, ArrayList<String> ratings ) {
         this.context = context;
         this.hotelNames = hotelNames;
         this.prices = prices;
+        this.ratings = ratings;
+
     }
 
 
@@ -49,6 +52,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
                 Intent intent = new Intent(context,Details.class);
                 intent.putExtra("name",hotelNames.get(position));
                 intent.putExtra("price",prices.get(position));
+                intent.putExtra("rating",ratings.get(position));
                 context.startActivity(intent);
             }
         });

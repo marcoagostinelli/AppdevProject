@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.FinalProject" >
         <activity
+            android:name="com.example.finalproject.Details"
+            android:exported="false" />
+        <activity
             android:name="com.example.finalproject.BrowseActivity"
             android:exported="false" />
         <activity
