@@ -64,6 +64,7 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
     public Boolean insertHotelData(String hotel_name, int rating, int num_ratings, int price, String image) {
+
         SQLiteDatabase DB = this.getWritableDatabase();
         ContentValues contentvalues = new ContentValues();
 
@@ -77,28 +78,13 @@ public class DBHelper extends SQLiteOpenHelper {
         return result != -1;
     }
 
-    public Boolean deleteHotelData(int hotel_id) {
+
+    public Cursor getHotelData() {
         SQLiteDatabase DB = this.getWritableDatabase();
-        ContentValues contentvalues = new ContentValues();
-        String idToString = Integer.toString(hotel_id);
-
-        Cursor cursor = DB.rawQuery("Select * from Hotel where hotel_id = ?", new String[]{ idToString });
-
-        if (cursor.getCount() > 0) {
-            long result = DB.delete("Hotel", "hotel_id=?", new String[]{ idToString });
-            return result != -1;
-        } else {
-            return false;
-        }
-    }
-
-    public ArrayList<HotelRoom> getHotelData() {
-        SQLiteDatabase DB = this.getWritableDatabase();
-        ContentValues contentvalues = new ContentValues();
 
         Cursor cursor = DB.rawQuery("SELECT * FROM Hotel", null);
-        // cursor to object to arraylist
-        return null;
+         //cursor to object to arraylist
+        return cursor;
     }
 
 }

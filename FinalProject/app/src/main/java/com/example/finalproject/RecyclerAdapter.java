@@ -2,6 +2,7 @@ package com.example.finalproject;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,14 +12,18 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
+
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
 
     Context context;
-    String[] data;
+    ArrayList<String> hotelNames;
+    ArrayList<String> prices;
 
-    public RecyclerAdapter(Context context, String[] data) {
+    public RecyclerAdapter(Context context, ArrayList<String> hotelNames,ArrayList<String> prices ) {
         this.context = context;
-        this.data = data;
+        this.hotelNames = hotelNames;
+        this.prices = prices;
     }
 
 
@@ -34,28 +39,35 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
-        holder.textView.setText(data[position]);
-        holder.textView.setOnClickListener(new View.OnClickListener() {
+        holder.textNames.setText(hotelNames.get(position));
+        holder.textPrices.setText(prices.get(position) + " / night");
+        holder.textNames.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(context, "Click on " + data[position], Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Click on " + hotelNames.get(position), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(context,Details.class);
+                intent.putExtra("name",hotelNames.get(position));
+                intent.putExtra("price",prices.get(position));
+                context.startActivity(intent);
             }
         });
     }
 
     @Override
     public int getItemCount() {
-        return data.length;
+        return hotelNames.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView textView;
+        TextView textNames;
+        TextView textPrices;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            textView = itemView.findViewById(R.id.textNames);
+            textNames = itemView.findViewById(R.id.textNames);
+            textPrices = itemView.findViewById(R.id.textPrice);
         }
     }
 }

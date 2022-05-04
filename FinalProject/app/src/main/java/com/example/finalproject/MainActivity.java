@@ -13,9 +13,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Button button;
-        DBHelper helper = new DBHelper(this);
-
-        helper.insertHotelData("Niagara Stays", 4, 74, 110, "room1.png");
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

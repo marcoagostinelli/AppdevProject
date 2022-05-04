@@ -7,9 +7,20 @@
     <TextView
         android:id="@+id/textNames"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:text="Item"
-        android:textSize="20sp"
-        />
+        android:layout_height="match_parent"
+        android:text="Hotel Name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="$129 / night"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/blue"/>
 
 </LinearLayout>

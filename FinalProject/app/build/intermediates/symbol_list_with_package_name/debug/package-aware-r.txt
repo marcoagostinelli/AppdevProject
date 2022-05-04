@@ -2953,6 +2953,7 @@ id text
 id text2
 id textEnd
 id textNames
+id textPrice
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
