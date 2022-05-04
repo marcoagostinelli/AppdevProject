@@ -36,6 +36,10 @@
         "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\activity_browse.xml"
     },
     {
+        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_leave_rating.xml.flat",
+        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\activity_leave_rating.xml"
+    },
+    {
         "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },

@@ -30,6 +30,7 @@ public class Details extends AppCompatActivity {
                 newIntent.putExtra("name",intent.getString("name"));
                 newIntent.putExtra("price","$"+ intent.getString("price") + " / Night");
                 newIntent.putExtra("rating",intent.getString("rating"));
+                startActivity(newIntent);
             }
         });
 

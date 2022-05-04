@@ -2616,6 +2616,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id book
 id bottom
 id bounce
 id bounceBoth
@@ -2695,6 +2696,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editRating
 id edit_query
 id elastic
 id end
@@ -2861,6 +2863,7 @@ id postLayout
 id progress_circular
 id progress_horizontal
 id radio
+id rating
 id ratingBar
 id ratio
 id rectangles
@@ -3097,6 +3100,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_browse
 layout activity_details
+layout activity_leave_rating
 layout activity_main
 layout custom_design
 layout custom_dialog
