@@ -18,6 +18,16 @@ public class DBHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase DB) {
         DB.execSQL("create Table Hotel(hotel_id INTEGER  primary key AUTOINCREMENT, hotel_name TEXT, rating INTEGER," +
                 "num_ratings INTEGER, price INTEGER, image TEXT)");
+        DB.execSQL("INSERT INTO Hotel(hotel_name, rating, num_ratings, price, image) VALUES('Vanilla Resort & Spa',0,0,150,'hotel1.png')");
+        DB.execSQL("INSERT INTO Hotel(hotel_name, rating, num_ratings, price, image) VALUES('Diamond Resort',0,0,180,'hotel2.png')");
+        DB.execSQL("INSERT INTO Hotel(hotel_name, rating, num_ratings, price, image) VALUES('Revolution Hotel and Spa',0,0,130,'hotel3.png')");
+        DB.execSQL("INSERT INTO Hotel(hotel_name, rating, num_ratings, price, image) VALUES('Paradise Hotel',0,0,80,'hotel4.png')");
+        DB.execSQL("INSERT INTO Hotel(hotel_name, rating, num_ratings, price, image) VALUES('Voyage Motel',0,0,70,'hotel5.png')");
+        DB.execSQL("INSERT INTO Hotel(hotel_name, rating, num_ratings, price, image) VALUES('Coastline Resort',0,0,140,'hotel6.png')");
+        DB.execSQL("INSERT INTO Hotel(hotel_name, rating, num_ratings, price, image) VALUES('Freedom Hotel',0,0,140,'hotel7.png')");
+        DB.execSQL("INSERT INTO Hotel(hotel_name, rating, num_ratings, price, image) VALUES('Fantasy Hotel and Spa',0,0,200,'hotel8.png')");
+        DB.execSQL("INSERT INTO Hotel(hotel_name, rating, num_ratings, price, image) VALUES('Royal Hotel',0,0,105,'hotel9.png')");
+        DB.execSQL("INSERT INTO Hotel(hotel_name, rating, num_ratings, price, image) VALUES('Southern Beach Resort',0,0,210,'hotel10.png')");
 
         DB.execSQL("create Table Booking(booking_Id INTEGER primary key AUTOINCREMENT, check_in TEXT, check_out TEXT," +
                 "num_people INTEGER, full_name TEXT, address TEXT, credit_card_num TEXT, hotel_id INTEGER," +
