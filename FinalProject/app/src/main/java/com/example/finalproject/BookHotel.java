@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 
 import android.app.TimePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,5 +26,15 @@ public class BookHotel extends AppCompatActivity {
 
         hotelName.setText(intent.getString("name"));
         price.setText(intent.getString("price"));
+
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newIntent = new Intent(view.getContext(),ConfirmBooking.class);
+                newIntent.putExtra("name",intent.getString("name"));
+                newIntent.putExtra("price",intent.getString("price"));
+                startActivity(newIntent);
+            }
+        });
     }
 }

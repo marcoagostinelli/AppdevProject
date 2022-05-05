@@ -2642,7 +2642,9 @@ id chain
 id chain2
 id chains
 id checkIn
+id checkInDate
 id checkOut
+id checkOutDate
 id checkbox
 id checked
 id chip
@@ -2659,6 +2661,7 @@ id clockwise
 id closest
 id collapseActionView
 id compress
+id confirm
 id confirm_button
 id constraint
 id container
@@ -2986,6 +2989,9 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
+id textView4
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3121,6 +3127,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_book_hotel
 layout activity_browse
+layout activity_confirm_booking
 layout activity_details
 layout activity_leave_rating
 layout activity_main

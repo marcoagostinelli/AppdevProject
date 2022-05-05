@@ -16,28 +16,12 @@
         "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\fragment_date_picker.xml"
     },
     {
-        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_design.xml.flat",
-        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\custom_design.xml"
-    },
-    {
         "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_browse.xml.flat",
-        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\activity_browse.xml"
     },
     {
         "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_book_hotel.xml.flat",
@@ -56,20 +40,12 @@
         "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_details.xml.flat",
-        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\activity_details.xml"
-    },
-    {
         "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_confirm_booking.xml.flat",
+        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\activity_confirm_booking.xml"
     },
     {
         "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -90,5 +66,33 @@
     {
         "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_design.xml.flat",
+        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\custom_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_browse.xml.flat",
+        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\activity_browse.xml"
+    },
+    {
+        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_details.xml.flat",
+        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\activity_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     }
 ]

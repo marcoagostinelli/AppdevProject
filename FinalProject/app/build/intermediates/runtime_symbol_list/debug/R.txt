@@ -2641,7 +2641,9 @@ int id chain 0x7f08006a
 int id chain2 0x7f08006b
 int id chains 0x7f08006c
 int id checkIn 0x7f0801ef
+int id checkInDate 0x7f0801fc
 int id checkOut 0x7f0801f0
+int id checkOutDate 0x7f0801fd
 int id checkbox 0x7f08006d
 int id checked 0x7f08006e
 int id chip 0x7f08006f
@@ -2658,6 +2660,7 @@ int id clockwise 0x7f080079
 int id closest 0x7f08007a
 int id collapseActionView 0x7f08007b
 int id compress 0x7f08007c
+int id confirm 0x7f0801fe
 int id confirm_button 0x7f08007d
 int id constraint 0x7f08007e
 int id container 0x7f08007f
@@ -2985,6 +2988,9 @@ int id textStart 0x7f0801b0
 int id textTop 0x7f0801b1
 int id textView 0x7f0801fb
 int id textView2 0x7f0801e6
+int id textView3 0x7f0801ff
+int id textView4 0x7f080200
+int id textView5 0x7f080201
 int id text_input_end_icon 0x7f0801b2
 int id text_input_error_icon 0x7f0801b3
 int id text_input_start_icon 0x7f0801b4
@@ -3120,6 +3126,7 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_book_hotel 0x7f0b0078
 int layout activity_browse 0x7f0b001c
+int layout activity_confirm_booking 0x7f0b0083
 int layout activity_details 0x7f0b0076
 int layout activity_leave_rating 0x7f0b0077
 int layout activity_main 0x7f0b001d
