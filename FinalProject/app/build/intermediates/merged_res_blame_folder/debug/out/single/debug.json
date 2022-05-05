@@ -12,6 +12,10 @@
         "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\drawable\\room1.png"
     },
     {
+        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_date_picker.xml.flat",
+        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\fragment_date_picker.xml"
+    },
+    {
         "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_browse.xml.flat",
         "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\activity_browse.xml"
+    },
+    {
+        "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_book_hotel.xml.flat",
+        "source": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\src\\main\\res\\layout\\activity_book_hotel.xml"
     },
     {
         "merged": "C:\\Users\\marco\\OneDrive\\Desktop\\AppdevProject\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_leave_rating.xml.flat",

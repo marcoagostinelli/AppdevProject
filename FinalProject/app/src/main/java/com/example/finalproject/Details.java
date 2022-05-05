@@ -22,6 +22,17 @@ public class Details extends AppCompatActivity {
         TextView hotelPrice = findViewById(R.id.hotelPrice);
         RatingBar hotelRating = findViewById(R.id.ratingBar);
         Button leaveRating = findViewById(R.id.rating);
+        Button bookHotel = findViewById(R.id.book);
+
+        bookHotel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newIntent = new Intent(view.getContext(),BookHotel.class);
+                newIntent.putExtra("name",intent.getString("name"));
+                newIntent.putExtra("price","$"+ intent.getString("price") + " / Night");
+                startActivity(newIntent);
+            }
+        });
 
         leaveRating.setOnClickListener(new View.OnClickListener() {
             @Override

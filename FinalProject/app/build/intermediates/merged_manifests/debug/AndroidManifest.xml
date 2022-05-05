@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.FinalProject" >
         <activity
+            android:name="com.example.finalproject.BookHotel"
+            android:exported="false" />
+        <activity
             android:name="com.example.finalproject.LeaveRating"
             android:exported="false" />
         <activity
