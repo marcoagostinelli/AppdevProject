@@ -42,13 +42,8 @@ public class BrowseActivity extends AppCompatActivity {
             hotelRatings.add(res.getString(2));
             hotelPrices.add(res.getString(4));
         }
+
         adapter = new RecyclerAdapter(this,hotelNames,hotelPrices,hotelRatings);
         recyclerView.setAdapter(adapter);
-
-        ArrayList<String> rooms = new ArrayList<>();
-
-
-
-
     }
 }
