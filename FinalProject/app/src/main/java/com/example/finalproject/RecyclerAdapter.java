@@ -26,9 +26,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         this.hotelNames = hotelNames;
         this.prices = prices;
         this.ratings = ratings;
-
     }
-
 
     @NonNull
     @Override
@@ -43,13 +41,12 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         holder.textNames.setText(hotelNames.get(position));
-        holder.textPrices.setText(prices.get(position) + " / night");
+        holder.textPrices.setText("$" + prices.get(position) + " / night");
         holder.textNames.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(context, "Click on " + hotelNames.get(position), Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(context,Details.class);
+                Intent intent = new Intent(context, Details.class);
                 intent.putExtra("name",hotelNames.get(position));
                 intent.putExtra("price",prices.get(position));
                 intent.putExtra("rating",ratings.get(position));

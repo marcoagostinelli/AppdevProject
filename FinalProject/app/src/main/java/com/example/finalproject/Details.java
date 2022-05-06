@@ -23,11 +23,12 @@ public class Details extends AppCompatActivity {
         RatingBar hotelRating = findViewById(R.id.ratingBar);
         Button leaveRating = findViewById(R.id.rating);
         Button bookHotel = findViewById(R.id.book);
+        Button location = findViewById(R.id.location);
 
         bookHotel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent newIntent = new Intent(view.getContext(),BookHotel.class);
+                Intent newIntent = new Intent(view.getContext(), BookHotel.class);
                 newIntent.putExtra("name",intent.getString("name"));
                 newIntent.putExtra("price","$"+ intent.getString("price") + " / Night");
                 startActivity(newIntent);
@@ -37,10 +38,18 @@ public class Details extends AppCompatActivity {
         leaveRating.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent newIntent = new Intent(view.getContext(),LeaveRating.class);
+                Intent newIntent = new Intent(view.getContext(), LeaveRating.class);
                 newIntent.putExtra("name",intent.getString("name"));
                 newIntent.putExtra("price","$"+ intent.getString("price") + " / Night");
                 newIntent.putExtra("rating",intent.getString("rating"));
+                startActivity(newIntent);
+            }
+        });
+
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newIntent = new Intent(view.getContext(), MapsActivity.class);
                 startActivity(newIntent);
             }
         });
